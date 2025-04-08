@@ -95,3 +95,8 @@ We compute histograms for the matched pixels per color cluster using OpenCV's `c
 flat_img = np.reshape(img, (-1, 3))
 kmeans = KMeans(n_clusters=5)
 kmeans.fit(flat_img)
+```
+
+![Output 1](output.png)
+
+![color proporstion bar for the most dominant colors](Figure_1.png)
