@@ -69,6 +69,8 @@ After clustering, each centroid (dominant color) is matched to a **closest named
 
 We compute histograms for the matched pixels per color cluster using OpenCV's `cv2.calcHist`. This shows the **intensity distribution** of each dominant color.
 
+
+
 ---
 
 ## Tech Stack
@@ -87,12 +89,9 @@ We compute histograms for the matched pixels per color cluster using OpenCV's `c
 
 ## How It Works
 
+![KMeans Clustering Diagram](https://upload.wikimedia.org/wikipedia/commons/e/ea/K-means_convergence.gif)
+
 ```python
 flat_img = np.reshape(img, (-1, 3))
 kmeans = KMeans(n_clusters=5)
 kmeans.fit(flat_img)
-
-![KMeans Clustering Diagram](https://upload.wikimedia.org/wikipedia/commons/e/ea/K-means_convergence.gif)
-
-
-
