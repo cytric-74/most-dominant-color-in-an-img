@@ -22,7 +22,7 @@ This project combines **unsupervised machine learning (K-Means clustering)** wit
 
 | Original Image | Output Image |
 |----------------|--------------|
-| ![original](docs/sample_input.jpg) | ![output](docs/output.png) |
+| ![original](4512114.jpg) | ![output](output.png) |
 
 ---
 
